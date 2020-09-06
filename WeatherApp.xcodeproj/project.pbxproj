@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		A3235FDA25041D0A00DAFA11 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3235FD925041D0A00DAFA11 /* main.swift */; };
+		A3DEC9E4250541820099B88E /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEC9E3250541820099B88E /* Weather.swift */; };
+		A3DEC9E625054A8B0099B88E /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DEC9E525054A8B0099B88E /* SwiftyJSON.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		A3235FD625041D0A00DAFA11 /* WeatherApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = WeatherApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3235FD925041D0A00DAFA11 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		A3DEC9E3250541820099B88E /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
+		A3DEC9E525054A8B0099B88E /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				A3235FD925041D0A00DAFA11 /* main.swift */,
+				A3DEC9E3250541820099B88E /* Weather.swift */,
+				A3DEC9E525054A8B0099B88E /* SwiftyJSON.swift */,
 			);
 			path = WeatherApp;
 			sourceTree = "<group>";
@@ -120,6 +126,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3DEC9E625054A8B0099B88E /* SwiftyJSON.swift in Sources */,
+				A3DEC9E4250541820099B88E /* Weather.swift in Sources */,
 				A3235FDA25041D0A00DAFA11 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
